@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
      Copyright (C) 2018-22 The Superior OS Project
-     Copyright (C) 2022 MagnusOS
+     Copyright (C) 2022 JavaneseOS
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -38,7 +38,7 @@
         android:key="heads_up_notifications"
         android:title="@string/heads_up_notifications"
         android:summary="@string/heads_up_summary"        
-        android:fragment="com.magnus.settings.fragments.HeadsUpSettings" />
+        android:fragment="com.javanese.settings.fragments.HeadsUpSettings" />
 
     <!-- less boring heads -->
     <com.magnus.settings.preferences.SystemSettingSwitchPreference
