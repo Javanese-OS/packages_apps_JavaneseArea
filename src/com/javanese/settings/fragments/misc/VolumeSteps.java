@@ -1,4 +1,4 @@
-package com.magnus.settings.fragments.misc;
+package com.javanese.settings.fragments.misc;
 
 import android.content.Context;
 import android.content.SharedPreferences;
@@ -177,6 +177,6 @@ public class VolumeSteps extends SettingsPreferenceFragment implements
 
     @Override
     public int getMetricsCategory() {
-        return MetricsProto.MetricsEvent.MAGNUS;
+        return MetricsProto.MetricsEvent.JAVANESE;
     }
 }
