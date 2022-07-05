@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.magnus.settings.fragments;
+package com.javanese.settings.fragments;
 
 import android.content.Context;
 import android.content.ContentResolver;
@@ -35,8 +35,8 @@ import android.content.pm.PackageManager;
 import android.app.Activity;
 import android.content.pm.ResolveInfo;
 import android.net.Uri;
-import com.magnus.settings.preferences.SystemSettingSwitchPreference;
-import com.magnus.settings.preferences.CustomSeekBarPreference;
+import com.javanese.settings.preferences.SystemSettingSwitchPreference;
+import com.javanese.settings.preferences.CustomSeekBarPreference;
 import android.content.Intent;
 import android.content.Intent.ShortcutIconResource;
 import com.android.internal.logging.nano.MetricsProto.MetricsEvent;
@@ -78,7 +78,7 @@ public class QuickSettings extends SettingsPreferenceFragment implements
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        addPreferencesFromResource(R.xml.magnus_settings_quicksettings);
+        addPreferencesFromResource(R.xml.javanese_settings_quicksettings);
         ContentResolver resolver = getActivity().getContentResolver();
         final PreferenceScreen prefScreen = getPreferenceScreen();
 
@@ -122,7 +122,7 @@ public class QuickSettings extends SettingsPreferenceFragment implements
 
     @Override
     public int getMetricsCategory() {
-        return MetricsProto.MetricsEvent.MAGNUS;
+        return MetricsProto.MetricsEvent.JAVANESE;
     }
 
     private void updateHeaderProviderSummary(boolean headerEnabled) {
