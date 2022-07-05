@@ -25,13 +25,13 @@ import com.android.settings.R;
 
 import com.android.internal.logging.nano.MetricsProto.MetricsEvent;
 
-public class magnusDevsInfoFragment extends SettingsPreferenceFragment {
+public class javaneseDevsInfoFragment extends SettingsPreferenceFragment {
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
        super.onCreate(savedInstanceState);
 
-        addPreferencesFromResource(R.xml.magnus_devs_info);
+        addPreferencesFromResource(R.xml.javanese_devs_info);
     }
 
     @Override
