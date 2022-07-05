@@ -14,7 +14,7 @@
  * under the License.
  */
 
-package com.magnus.settings.utils;
+package com.javanese.settings.utils;
 
 import android.app.Activity;
 import android.app.ActivityManager;
@@ -48,7 +48,7 @@ import android.view.WindowManager;
 import com.android.settings.R;
 
 public final class Utils {
-    private static final String TAG = "MagnusUtils";
+    private static final String TAG = "JavaneseUtils";
 
     // Device types
     private static final int DEVICE_PHONE = 0;
