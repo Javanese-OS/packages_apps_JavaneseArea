@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.magnus.settings.fragments.misc;
+package com.javanese.settings.fragments.misc;
 
 import android.app.AlertDialog;
 import android.content.BroadcastReceiver;
@@ -26,7 +26,7 @@ import android.util.Log;
 import android.text.TextUtils;
 
 import com.android.settings.R;
-import com.android.internal.util.magnus.GamingModeController;
+import com.android.internal.util.javanese.GamingModeController;
 
 public class GamingModeReceiver extends BroadcastReceiver {
 
