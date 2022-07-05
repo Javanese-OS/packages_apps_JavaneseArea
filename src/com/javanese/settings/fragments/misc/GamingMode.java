@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.magnus.settings.fragments.misc;
+package com.javanese.settings.fragments.misc;
 
 import android.app.AlertDialog;
 import android.app.Dialog;
@@ -124,13 +124,13 @@ public class GamingMode extends SettingsPreferenceFragment
 
     @Override
     public int getMetricsCategory() {
-        return MetricsProto.MetricsEvent.MAGNUS;
+        return MetricsProto.MetricsEvent.JAVANESE;
     }
 
     @Override
     public int getDialogMetricsCategory(int dialogId) {
         if (dialogId == DIALOG_GAMING_APPS) {
-            return MetricsProto.MetricsEvent.MAGNUS;
+            return MetricsProto.MetricsEvent.JAVANESE;
         }
         return 0;
     }
