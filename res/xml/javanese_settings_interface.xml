@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
      Copyright (C) 2018-22 The Superior OS Project
-     Copyright (C) 2022 MagnusOS
+     Copyright (C) 2022 JavaneseOS
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -68,7 +68,7 @@
     <!--Network traffic -->
     <Preference
             android:key="network_traffic"
-            android:fragment="com.magnus.settings.fragments.NetworkTraffic"
+            android:fragment="com.javanese.settings.fragments.NetworkTraffic"
             android:summary="@string/traffic_summary"            
             android:title="@string/traffic_title" />
 
@@ -113,14 +113,14 @@
             android:key="gvisual"
             android:title="@string/gvisual_title"
             android:summary="@string/gvisual_summary"
-            android:fragment="com.magnus.settings.fragments.GvisualSettings" />
+            android:fragment="com.javanese.settings.fragments.GvisualSettings" />
 
     <!-- Battery bar -->
     <PreferenceScreen
             android:key="batterybar"
             android:title="@string/battery_bar_title"
             android:summary="@string/battery_bar_summary"
-            android:fragment="com.magnus.settings.fragments.BatteryBar" />
+            android:fragment="com.javanese.settings.fragments.BatteryBar" />
 
     </PreferenceCategory>
 </PreferenceScreen>
