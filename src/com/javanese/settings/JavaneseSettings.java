@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.magnus.settings;
+package com.javanese.settings;
 
 import android.os.Bundle;
 import androidx.preference.Preference;
@@ -31,7 +31,7 @@ public class MagnusSettings extends SettingsPreferenceFragment {
     @Override
     public void onCreate(Bundle icicle) {
         super.onCreate(icicle);
-        addPreferencesFromResource(R.xml.magnus_settings);
+        addPreferencesFromResource(R.xml.javanese_settings);
     }
 
     @Override
