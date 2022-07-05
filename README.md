@@ -17,7 +17,7 @@
 <br>
   **SuperiorOS ROM** & **ProjectSakura ROM**
 <br>
- ~ For Magnus Base.
+ ~ For Javanese Base.
 <br>
   **Max**
 ~ For the Idea about tabs & drawables.
