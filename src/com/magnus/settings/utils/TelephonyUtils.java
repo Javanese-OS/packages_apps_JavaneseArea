@@ -1,4 +1,4 @@
-package com.magnus.settings.utils;
+package com.javanese.settings.utils;
 
 import android.content.Context;
 import android.telephony.TelephonyManager;
