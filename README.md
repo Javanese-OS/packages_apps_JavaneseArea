@@ -1,6 +1,6 @@
 <hr>
 <div align="center">
-<a href="https://github.com/Magnus-OS">
+<a href="https://github.com/Javanese-OS">
 <img src="https://github.com/Magnus-OS/GreatDocs/blob/main/assets/header.png?raw=true" alt="Magnus OS"> 
 </a>
 <hr>
@@ -22,9 +22,3 @@
   **Max**
 ~ For the Idea about tabs & drawables.
 <br>
-  **Rohit Poroli**
-~ For the About ROM Tab.
-<br>
- **DarkNess reDefined ROM**
-~ For some drawables.
-<hr>
