@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
     Copyright © 2022 Project Sakura
-    Copyright © 2022 MagnusOS
+    Copyright © 2022 JavaneseOS
     
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
@@ -19,74 +19,74 @@
 <PreferenceScreen
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
-    android:title="@string/magnus_settings_title" >
+    android:title="@string/javanese_settings_title" >
 
     <PreferenceCategory
-           android:title="Magnus Features" >
+           android:title="Javanese Features" >
 
         <!-- Themes -->
         <com.magnus.settings.preferences.CardviewPreference
             android:key="interface_category" 
             android:title="@string/interface_title" 
-            android:summary="@string/magnus_interface_summary_title"
-            android:fragment="com.magnus.settings.fragments.InterfaceSettings" 
+            android:summary="@string/javanese_interface_summary_title"
+            android:fragment="com.javanese.settings.fragments.InterfaceSettings" 
             android:icon="@drawable/ic_settings_ui"/>
 
         <!-- Quick Settings panel -->
         <com.magnus.settings.preferences.CardviewPreference
             android:key="quicksettings_category"
             android:title="@string/quicksettings_title"
-            android:summary="@string/magnus_quicksettings_summary_title"
-            android:fragment="com.magnus.settings.fragments.QuickSettings"
+            android:summary="@string/javanese_quicksettings_summary_title"
+            android:fragment="com.javanese.settings.fragments.QuickSettings"
             android:icon="@drawable/ic_settings_quicksettings"/>
 
         <!-- Lock Screen -->
         <com.magnus.settings.preferences.CardviewPreference
             android:key="lockscreen_category"
             android:title="@string/lockscreen_title"
-            android:summary="@string/magnus_lockscreen_summary_title"
-            android:fragment="com.magnus.settings.fragments.LockscreenSettings"
+            android:summary="@string/javanese_lockscreen_summary_title"
+            android:fragment="com.javanese.settings.fragments.LockscreenSettings"
             android:icon="@drawable/ic_settings_lockscreen"/>
 			
         <!-- Gestures -->
         <com.magnus.settings.preferences.CardviewPreference
             android:key="gestures_category"
             android:title="@string/gestures_title"
-            android:summary="@string/magnus_gesture_summary_title"
-            android:fragment="com.magnus.settings.fragments.GestureSettings"
+            android:summary="@string/javanese_gesture_summary_title"
+            android:fragment="com.javanese.settings.fragments.GestureSettings"
             android:icon="@drawable/ic_settings_gest"/>
 
         <!-- Notifications -->
         <com.magnus.settings.preferences.CardviewPreference
             android:key="notifications_category"
             android:title="@string/notifications_title"
-            android:summary="@string/magnus_notifications_summary_title"
-            android:fragment="com.magnus.settings.fragments.NotificationSettings"
+            android:summary="@string/javanese_notifications_summary_title"
+            android:fragment="com.javanese.settings.fragments.NotificationSettings"
             android:icon="@drawable/ic_settings_notifications"/>
 
         <!-- LineageParts -->
         <com.magnus.settings.preferences.CardviewPreference
             android:key="parts_category"
             android:title="@string/parts_title"
-            android:summary="@string/magnus_parts_summary_title"
-            android:fragment="com.magnus.settings.fragments.PartsSettings"
+            android:summary="@string/javanese_parts_summary_title"
+            android:fragment="com.javanese.settings.fragments.PartsSettings"
             android:icon="@drawable/ic_settings_parts"/>
 
         <!-- Misc -->
         <com.magnus.settings.preferences.CardviewPreference
             android:key="misc_category"
             android:title="@string/misc_title"
-            android:summary="@string/magnus_misc_summary_title"
-            android:fragment="com.magnus.settings.fragments.MiscSettings"
+            android:summary="@string/javanese_misc_summary_title"
+            android:fragment="com.javanese.settings.fragments.MiscSettings"
             android:icon="@drawable/ic_settings_misc"/>
 
         <!-- About Devs -->
         <com.magnus.settings.preferences.CardviewPreference
             android:key="dev_info"
-            android:title="@string/magnus_about_info"
-            android:summary="@string/magnus_about_info_summary_title"
+            android:title="@string/javanese_about_info"
+            android:summary="@string/javanese_about_info_summary_title"
             android:fragment="com.android.settings.custom.magnusDevsInfoFragment"
-            android:icon="@drawable/ic_magnus_about"/>
+            android:icon="@drawable/ic_javanese_about"/>
 
     </PreferenceCategory>
 
