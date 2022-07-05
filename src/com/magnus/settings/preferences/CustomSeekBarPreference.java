@@ -14,7 +14,7 @@
  * limitations under the License
  */
 
-package com.magnus.settings.preferences;
+package com.javanese.settings.preferences;
 
 import android.content.Context;
 import android.content.res.TypedArray;
