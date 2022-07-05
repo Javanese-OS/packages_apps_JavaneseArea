@@ -2,7 +2,7 @@
 <!-- Copyright (C) 2016 The AOSP-RRO Project
      Copyright (C) 2018-22 The Superior OS Project
      Copyright (C) 2020-22 Direwolf INC for Project Sakura
-     Copyright (C) 2022 MagnusOS
+     Copyright (C) 2022 JavaneseOS
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -20,45 +20,38 @@
 
 <PreferenceScreen
         xmlns:android="http://schemas.android.com/apk/res/android"
-        android:title="MagnusOS">
+        android:title="JavaneseOS">
 
 <PreferenceCategory
               android:key="about"
-              android:title="@string/magnus_about_info" >
+              android:title="@string/javanese_about_info" >
 
         <Preference
                android:summary="@string/magnus_about_info_summary" 
                android:icon="@drawable/ic_devs_info" >
         <intent
                android:action="android.intent.action.VIEW"
-               android:data="https://github.com/Magnus-OS" />
+               android:data="https://github.com/Javanese-OS" />
         </Preference>
 </PreferenceCategory>
 
 <!-- The best people in the world -->
 <PreferenceCategory
-            android:key="magnus_dev"
+            android:key="javanese_dev"
             android:title="@string/devs_header" >
         <Preference
             android:title="@string/dev_1"
             android:summary="@string/dev1_description">
         <intent
             android:action="android.intent.action.VIEW"
-            android:data="https://t.me/ReveRTX" />
+            android:data="https://t.me/akemiinawa" />
         </Preference>
         <Preference
             android:title="@string/dev_2"
             android:summary="@string/dev2_description">
         <intent
             android:action="android.intent.action.VIEW"
-            android:data="https://t.me/NotUsingTheName"/>
-        </Preference>
-        <Preference
-            android:title="@string/dev_3"
-            android:summary="@string/dev3_description">
-        <intent
-            android:action="android.intent.action.VIEW"
-            android:data="https://t.me/anuu0010"/>
+            android:data="https://t.me/Dannz1019" />
         </Preference>  
 </PreferenceCategory>
 </PreferenceScreen>
